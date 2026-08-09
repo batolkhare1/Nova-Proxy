@@ -42,39 +42,39 @@ proxies:
     reserved: "Icya"
     udp: true
     mtu: 1280
-  - {name: "سرویس رایگان نوا @irnova_proxy bright-willow-0414.swift-harbor-c200.workers.dev:443 [VLESS]", server: bright-willow-0414.swift-harbor-c200.workers.dev, port: 443, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/clip/www/team?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.170:2087 [TROJAN]", server: 8.39.125.170, port: 2087, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/www/trade/site?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.147.235:8443 [SS]", server: 104.19.147.235, port: 8443, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/bbs/pic/content?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.159.181:2083 [VLESS]", server: 104.17.159.181, port: 2083, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/pages/about?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.38.143:2096 [TROJAN]", server: 162.159.38.143, port: 2096, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/u/forum?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.0.236:2053 [SS]", server: 172.66.0.236, port: 2053, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/books/topics?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 8.35.211.105:443 [VLESS]", server: 8.35.211.105, port: 443, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/player?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.59.182:443 [TROJAN]", server: 91.193.59.182, port: 443, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/chat/dload/res?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.243.156:2096 [SS]", server: 104.16.243.156, port: 2096, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/mall/favs?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.65.157:2083 [VLESS]", server: 172.67.65.157, port: 2083, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/img/post?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.59.162:2053 [TROJAN]", server: 91.193.59.162, port: 2053, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/archive?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.163.187:2083 [SS]", server: 104.17.163.187, port: 2083, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/res/teacher?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 8.35.211.174:2053 [VLESS]", server: 8.35.211.174, port: 2053, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/f/bbs/config?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.38.23:443 [TROJAN]", server: 162.159.38.23, port: 443, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/player/pay/downloads?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.156.16:2096 [SS]", server: 104.17.156.16, port: 2096, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/novels?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.26.10.211:2087 [VLESS]", server: 104.26.10.211, port: 2087, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/v?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 188.164.248.5:443 [TROJAN]", server: 188.164.248.5, port: 443, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/clip/drama/activity?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.178.26:2096 [SS]", server: 104.17.178.26, port: 2096, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/dload?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 8.35.211.106:443 [VLESS]", server: 8.35.211.106, port: 443, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/index/programs?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.61.126:2083 [TROJAN]", server: 104.17.61.126, port: 2083, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/zh-cn/films?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.147.206:2096 [SS]", server: 104.19.147.206, port: 2096, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/uploads/act/channel?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.241.61:443 [VLESS]", server: 104.16.241.61, port: 443, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/soft/bt/student?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.177.92:2053 [TROJAN]", server: 104.17.177.92, port: 2053, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/files?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.238:2087 [SS]", server: 108.162.198.238, port: 2087, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/study/player?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.208.138:2083 [VLESS]", server: 198.41.208.138, port: 2083, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/comic?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.31.52:2096 [TROJAN]", server: 104.17.31.52, port: 2096, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/thread/blogs/details?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.2.228:2096 [SS]", server: 172.66.2.228, port: 2096, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/picture?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.45.208:2087 [VLESS]", server: 162.159.45.208, port: 2087, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/pages/question/cn?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.123.80:443 [TROJAN]", server: 104.17.123.80, port: 443, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/bd/topic?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.187.80:8443 [SS]", server: 104.17.187.80, port: 8443, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/ranking/docs?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.208.4:2096 [VLESS]", server: 198.41.208.4, port: 2096, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/version/show?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.246.35:2053 [TROJAN]", server: 104.16.246.35, port: 2053, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/redirect.php/courses/res?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.30.133:2096 [SS]", server: 104.17.30.133, port: 2096, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/static?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova_proxy bright-willow-0414.swift-harbor-c200.workers.dev:443 [VLESS]", server: bright-willow-0414.swift-harbor-c200.workers.dev, port: 443, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/player/tools/new?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.118.1:2053 [TROJAN]", server: 104.17.118.1, port: 2053, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/avatar/p?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.55.38:2087 [SS]", server: 104.19.55.38, port: 2087, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/messages/type/doujin?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.58.120:2096 [VLESS]", server: 104.17.58.120, port: 2096, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/index/wenku/tools?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.58.221:2096 [TROJAN]", server: 91.193.58.221, port: 2096, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/f/category?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.74.167:443 [SS]", server: 172.67.74.167, port: 443, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/tool?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.251.20:443 [VLESS]", server: 104.16.251.20, port: 443, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/stars?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.20.115:2087 [TROJAN]", server: 104.17.20.115, port: 2087, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/channel/videos/rank?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.113.193:2096 [SS]", server: 104.17.113.193, port: 2096, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/images/members?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.54.244:2087 [VLESS]", server: 104.19.54.244, port: 2087, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/groups/mall?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.26.2.156:443 [TROJAN]", server: 104.26.2.156, port: 443, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/activity/channel/china?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.208.170:2096 [SS]", server: 198.41.208.170, port: 2096, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/archives/home/news?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.123:8443 [VLESS]", server: 108.162.198.123, port: 8443, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/archives?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.153.199:2053 [TROJAN]", server: 104.17.153.199, port: 2053, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/episode?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.112.22:2083 [SS]", server: 104.17.112.22, port: 2083, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/forum/pay?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.209.22:2096 [VLESS]", server: 198.41.209.22, port: 2096, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/collection/my?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 188.164.248.239:2087 [TROJAN]", server: 188.164.248.239, port: 2087, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/company/ads/app?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.38.66:2096 [SS]", server: 162.159.38.66, port: 2096, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/users?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 188.164.248.2:8443 [VLESS]", server: 188.164.248.2, port: 8443, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/project/list/activity?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.38.233:2083 [TROJAN]", server: 162.159.38.233, port: 2083, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/topic/data/ad?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.33.23:2087 [SS]", server: 104.18.33.23, port: 2087, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/html?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.153.42:2053 [VLESS]", server: 104.16.153.42, port: 2053, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/url/messages?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.33.211:2053 [TROJAN]", server: 104.18.33.211, port: 2053, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/project/thread?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.77.216:2083 [SS]", server: 172.67.77.216, port: 2083, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/class/posts/res?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.26.11.5:2096 [VLESS]", server: 104.26.11.5, port: 2096, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/content/channels?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.148.74:2087 [TROJAN]", server: 104.16.148.74, port: 2087, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/items/stock/my?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.46.182:8443 [SS]", server: 162.159.46.182, port: 8443, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/products?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.209.128:443 [VLESS]", server: 198.41.209.128, port: 443, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/pic/p?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.150.235:2087 [TROJAN]", server: 104.19.150.235, port: 2087, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/temp?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.244.0:2096 [SS]", server: 104.16.244.0, port: 2096, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/zh-cn/m?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.35.211.27:2096 [VLESS]", server: 8.35.211.27, port: 2096, type: vless, uuid: 79b53589-1d5f-4712-8239-5d524339040b, tls: true, skip-cert-verify: true, servername: bright-willow-0414.swift-harbor-c200.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: "/out.php?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.209.226:2096 [TROJAN]", server: 104.17.209.226, port: 2096, type: trojan, password: 79b53589-1d5f-4712-8239-5d524339040b, sni: bright-willow-0414.swift-harbor-c200.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/url/playlist?ed=2560", headers: {Host: bright-willow-0414.swift-harbor-c200.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.33.31:2053 [SS]", server: 104.18.33.31, port: 2053, type: ss, cipher: aes-128-gcm, password: 79b53589-1d5f-4712-8239-5d524339040b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: bright-willow-0414.swift-harbor-c200.workers.dev, path: "/m?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -86,38 +86,38 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا @irnova_proxy bright-willow-0414.swift-harbor-c200.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.170:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.147.235:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.159.181:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.143:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.0.236:2053 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.105:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.182:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.243.156:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.65.157:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.162:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.163.187:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.174:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.23:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.156.16:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.10.211:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.5:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.178.26:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.106:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.61.126:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.147.206:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.241.61:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.177.92:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.238:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.208.138:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.52:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.2.228:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.45.208:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.80:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.187.80:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.208.4:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.246.35:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.30.133:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.118.1:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.55.38:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.58.120:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.221:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.74.167:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.251.20:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.20.115:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.113.193:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.244:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.2.156:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.208.170:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.123:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.153.199:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.112.22:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.22:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.239:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.66:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.2:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.233:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.23:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.153.42:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.211:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.77.216:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.11.5:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.148.74:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.46.182:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.128:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.150.235:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.244.0:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.27:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.209.226:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.31:2053 [SS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -125,76 +125,76 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا @irnova_proxy bright-willow-0414.swift-harbor-c200.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.170:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.147.235:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.159.181:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.143:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.0.236:2053 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.105:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.182:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.243.156:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.65.157:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.162:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.163.187:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.174:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.23:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.156.16:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.10.211:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.5:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.178.26:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.106:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.61.126:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.147.206:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.241.61:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.177.92:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.238:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.208.138:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.52:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.2.228:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.45.208:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.80:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.187.80:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.208.4:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.246.35:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.30.133:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.118.1:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.55.38:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.58.120:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.221:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.74.167:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.251.20:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.20.115:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.113.193:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.244:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.2.156:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.208.170:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.123:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.153.199:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.112.22:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.22:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.239:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.66:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.2:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.233:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.23:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.153.42:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.211:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.77.216:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.11.5:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.148.74:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.46.182:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.128:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.150.235:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.244.0:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.27:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.209.226:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.31:2053 [SS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy bright-willow-0414.swift-harbor-c200.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.170:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.147.235:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.159.181:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.143:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.0.236:2053 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.105:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.182:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.243.156:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.65.157:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.162:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.163.187:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.174:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.23:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.156.16:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.10.211:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.5:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.178.26:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.106:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.61.126:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.147.206:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.241.61:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.177.92:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.238:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.208.138:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.52:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.2.228:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.45.208:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.80:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.187.80:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.208.4:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.246.35:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.30.133:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.118.1:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.55.38:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.58.120:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.221:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.74.167:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.251.20:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.20.115:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.113.193:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.244:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.2.156:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.208.170:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.123:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.153.199:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.112.22:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.22:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.239:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.66:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.2:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.233:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.23:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.153.42:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.211:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.77.216:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.11.5:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.148.74:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.46.182:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.128:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.150.235:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.244.0:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.27:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.209.226:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.31:2053 [SS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -202,38 +202,38 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy bright-willow-0414.swift-harbor-c200.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.170:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.147.235:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.159.181:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.143:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.0.236:2053 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.105:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.182:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.243.156:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.65.157:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.162:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.163.187:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.174:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.23:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.156.16:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.10.211:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.5:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.178.26:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.106:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.61.126:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.147.206:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.241.61:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.177.92:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.238:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.208.138:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.52:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.2.228:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.45.208:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.80:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.187.80:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.208.4:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.246.35:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.30.133:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.118.1:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.55.38:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.58.120:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.221:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.74.167:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.251.20:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.20.115:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.113.193:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.244:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.2.156:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.208.170:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.123:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.153.199:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.112.22:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.22:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.239:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.66:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.2:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.233:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.23:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.153.42:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.211:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.77.216:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.11.5:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.148.74:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.46.182:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.128:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.150.235:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.244.0:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.27:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.209.226:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.31:2053 [SS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -260,38 +260,38 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy bright-willow-0414.swift-harbor-c200.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.170:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.147.235:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.159.181:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.143:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.0.236:2053 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.105:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.182:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.243.156:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.65.157:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.162:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.163.187:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.174:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.23:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.156.16:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.10.211:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.5:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.178.26:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.106:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.61.126:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.147.206:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.241.61:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.177.92:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.238:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.208.138:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.52:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.2.228:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.45.208:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.80:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.187.80:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.208.4:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.246.35:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.30.133:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.118.1:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.55.38:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.58.120:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.221:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.74.167:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.251.20:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.20.115:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.113.193:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.244:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.2.156:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.208.170:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.123:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.153.199:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.112.22:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.22:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.239:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.66:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.2:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.233:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.23:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.153.42:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.211:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.77.216:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.11.5:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.148.74:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.46.182:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.128:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.150.235:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.244.0:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.27:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.209.226:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.31:2053 [SS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -304,38 +304,38 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy bright-willow-0414.swift-harbor-c200.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.170:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.147.235:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.159.181:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.143:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.0.236:2053 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.105:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.182:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.243.156:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.65.157:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.162:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.163.187:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.174:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.23:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.156.16:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.10.211:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.5:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.178.26:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.106:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.61.126:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.147.206:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.241.61:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.177.92:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.238:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.208.138:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.52:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.2.228:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.45.208:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.80:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.187.80:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.208.4:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.246.35:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.30.133:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.118.1:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.55.38:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.58.120:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.221:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.74.167:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.251.20:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.20.115:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.113.193:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.244:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.2.156:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.208.170:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.123:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.153.199:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.112.22:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.22:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.239:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.66:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.2:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.233:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.23:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.153.42:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.211:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.67.77.216:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.11.5:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.148.74:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.46.182:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.128:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.150.235:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.244.0:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.27:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.209.226:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.31:2053 [SS]
 rules:
 # IRANIAN DIRECT RULES
   - DOMAIN-SUFFIX,ir,DIRECT
