@@ -116,7 +116,7 @@
       "server_port": 443,
       "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
       "transport": {
-        "path": "/channel?ed=2560",
+        "path": "/trade/ad/bbs?ed=2560",
         "type": "ws",
         "headers": {
           "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
@@ -134,13 +134,13 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 8.35.211.122:443 [TROJAN]",
-      "server": "8.35.211.122",
-      "server_port": 443,
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.145.52:2053 [TROJAN]",
+      "server": "104.19.145.52",
+      "server_port": 2053,
       "password": "79b53589-1d5f-4712-8239-5d524339040b",
       "transport": {
         "type": "ws",
-        "path": "/films?ed=2560",
+        "path": "/p?ed=2560",
         "headers": {
           "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
         }
@@ -157,13 +157,13 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.16.244.204:8443 [SS]",
-      "server": "104.16.244.204",
-      "server_port": 8443,
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.51.138:2053 [SS]",
+      "server": "104.19.51.138",
+      "server_port": 2053,
       "method": "aes-128-gcm",
       "password": "79b53589-1d5f-4712-8239-5d524339040b",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/doc/mobile/download?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/redirect.html/details?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -174,12 +174,12 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.16.254.70:8443 [VLESS]",
-      "server": "104.16.254.70",
-      "server_port": 8443,
+      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.36.119:2053 [VLESS]",
+      "server": "162.159.36.119",
+      "server_port": 2053,
       "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
       "transport": {
-        "path": "/movies/class?ed=2560",
+        "path": "/out.html?ed=2560",
         "type": "ws",
         "headers": {
           "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
@@ -197,202 +197,13 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 188.164.248.112:8443 [TROJAN]",
-      "server": "188.164.248.112",
-      "server_port": 8443,
-      "password": "79b53589-1d5f-4712-8239-5d524339040b",
-      "transport": {
-        "type": "ws",
-        "path": "/tech?ed=2560",
-        "headers": {
-          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 172.66.2.118:2096 [SS]",
-      "server": "172.66.2.118",
-      "server_port": 2096,
-      "method": "aes-128-gcm",
-      "password": "79b53589-1d5f-4712-8239-5d524339040b",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/ad?enc\\=aes-128-gcm&ed\\=2560;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.222.196:443 [VLESS]",
-      "server": "104.17.222.196",
-      "server_port": 443,
-      "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
-      "transport": {
-        "path": "/edu?ed=2560",
-        "type": "ws",
-        "headers": {
-          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.147.104:2096 [TROJAN]",
-      "server": "104.19.147.104",
-      "server_port": 2096,
-      "password": "79b53589-1d5f-4712-8239-5d524339040b",
-      "transport": {
-        "type": "ws",
-        "path": "/sale/pictures?ed=2560",
-        "headers": {
-          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.147.71:8443 [SS]",
-      "server": "104.17.147.71",
-      "server_port": 8443,
-      "method": "aes-128-gcm",
-      "password": "79b53589-1d5f-4712-8239-5d524339040b",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/doc/content?enc\\=aes-128-gcm&ed\\=2560;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 108.162.198.70:2096 [VLESS]",
-      "server": "108.162.198.70",
-      "server_port": 2096,
-      "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
-      "transport": {
-        "path": "/avatar/readme?ed=2560",
-        "type": "ws",
-        "headers": {
-          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.33.106:443 [TROJAN]",
-      "server": "104.19.33.106",
-      "server_port": 443,
-      "password": "79b53589-1d5f-4712-8239-5d524339040b",
-      "transport": {
-        "type": "ws",
-        "path": "/m/channels/about?ed=2560",
-        "headers": {
-          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 8.35.211.140:2096 [SS]",
-      "server": "8.35.211.140",
-      "server_port": 2096,
-      "method": "aes-128-gcm",
-      "password": "79b53589-1d5f-4712-8239-5d524339040b",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/discuss/cart?enc\\=aes-128-gcm&ed\\=2560;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.16.152.103:443 [VLESS]",
-      "server": "104.16.152.103",
-      "server_port": 443,
-      "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
-      "transport": {
-        "path": "/config/games?ed=2560",
-        "type": "ws",
-        "headers": {
-          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.16.146.23:2083 [TROJAN]",
-      "server": "104.16.146.23",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.50.144:2083 [TROJAN]",
+      "server": "104.19.50.144",
       "server_port": 2083,
       "password": "79b53589-1d5f-4712-8239-5d524339040b",
       "transport": {
         "type": "ws",
-        "path": "/user/docs/uploads?ed=2560",
+        "path": "/episode?ed=2560",
         "headers": {
           "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
         }
@@ -409,13 +220,13 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.45.73:2096 [SS]",
-      "server": "162.159.45.73",
-      "server_port": 2096,
+      "tag": "سرویس رایگان نوا @irnova_proxy 108.162.198.75:2087 [SS]",
+      "server": "108.162.198.75",
+      "server_port": 2087,
       "method": "aes-128-gcm",
       "password": "79b53589-1d5f-4712-8239-5d524339040b",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/ja/settings?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/episodes/new?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -426,75 +237,12 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.163.62:8443 [VLESS]",
-      "server": "104.17.163.62",
-      "server_port": 8443,
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.64.65:2087 [VLESS]",
+      "server": "172.67.64.65",
+      "server_port": 2087,
       "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
       "transport": {
-        "path": "/share?ed=2560",
-        "type": "ws",
-        "headers": {
-          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.24.30:8443 [TROJAN]",
-      "server": "104.17.24.30",
-      "server_port": 8443,
-      "password": "79b53589-1d5f-4712-8239-5d524339040b",
-      "transport": {
-        "type": "ws",
         "path": "/apps?ed=2560",
-        "headers": {
-          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.218.202:2096 [SS]",
-      "server": "104.17.218.202",
-      "server_port": 2096,
-      "method": "aes-128-gcm",
-      "password": "79b53589-1d5f-4712-8239-5d524339040b",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/products/go?enc\\=aes-128-gcm&ed\\=2560;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 198.41.208.127:443 [VLESS]",
-      "server": "198.41.208.127",
-      "server_port": 443,
-      "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
-      "transport": {
-        "path": "/details/channel/contact?ed=2560",
         "type": "ws",
         "headers": {
           "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
@@ -512,13 +260,13 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.18.33.109:2083 [TROJAN]",
-      "server": "104.18.33.109",
+      "tag": "سرویس رایگان نوا @irnova_proxy 198.41.209.178:2083 [TROJAN]",
+      "server": "198.41.209.178",
       "server_port": 2083,
       "password": "79b53589-1d5f-4712-8239-5d524339040b",
       "transport": {
         "type": "ws",
-        "path": "/course?ed=2560",
+        "path": "/playlist?ed=2560",
         "headers": {
           "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
         }
@@ -535,29 +283,29 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 188.164.248.17:2053 [SS]",
-      "server": "188.164.248.17",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.51.100:8443 [SS]",
+      "server": "104.19.51.100",
+      "server_port": 8443,
+      "method": "aes-128-gcm",
+      "password": "79b53589-1d5f-4712-8239-5d524339040b",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/magnet/edu/redirect.php?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.165.17:2053 [VLESS]",
+      "server": "104.17.165.17",
       "server_port": 2053,
-      "method": "aes-128-gcm",
-      "password": "79b53589-1d5f-4712-8239-5d524339040b",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/pay/map/apps?enc\\=aes-128-gcm&ed\\=2560;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.222.120:8443 [VLESS]",
-      "server": "104.17.222.120",
-      "server_port": 8443,
       "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
       "transport": {
-        "path": "/lessons?ed=2560",
+        "path": "/picture/pictures?ed=2560",
         "type": "ws",
         "headers": {
           "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
@@ -575,13 +323,13 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.161.72:8443 [TROJAN]",
-      "server": "104.17.161.72",
-      "server_port": 8443,
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.120.6:2083 [TROJAN]",
+      "server": "104.17.120.6",
+      "server_port": 2083,
       "password": "79b53589-1d5f-4712-8239-5d524339040b",
       "transport": {
         "type": "ws",
-        "path": "/p/sort?ed=2560",
+        "path": "/book/friends?ed=2560",
         "headers": {
           "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
         }
@@ -598,13 +346,13 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.35.176:8443 [SS]",
-      "server": "104.19.35.176",
-      "server_port": 8443,
+      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.38.22:2087 [SS]",
+      "server": "162.159.38.22",
+      "server_port": 2087,
       "method": "aes-128-gcm",
       "password": "79b53589-1d5f-4712-8239-5d524339040b",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/seller/redirect.html/redirect.php?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/picture?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -615,12 +363,12 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.63.47:2083 [VLESS]",
-      "server": "104.17.63.47",
-      "server_port": 2083,
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.16.153.243:2096 [VLESS]",
+      "server": "104.16.153.243",
+      "server_port": 2096,
       "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
       "transport": {
-        "path": "/download/work/study?ed=2560",
+        "path": "/blog/topics/new?ed=2560",
         "type": "ws",
         "headers": {
           "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
@@ -638,13 +386,13 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.171.254:2053 [TROJAN]",
-      "server": "104.17.171.254",
+      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.38.63:2053 [TROJAN]",
+      "server": "162.159.38.63",
       "server_port": 2053,
       "password": "79b53589-1d5f-4712-8239-5d524339040b",
       "transport": {
         "type": "ws",
-        "path": "/outbound/jp/pics?ed=2560",
+        "path": "/pdf/album/city?ed=2560",
         "headers": {
           "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
         }
@@ -661,13 +409,13 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.51.59:443 [SS]",
-      "server": "104.19.51.59",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.26.6.166:443 [SS]",
+      "server": "104.26.6.166",
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "79b53589-1d5f-4712-8239-5d524339040b",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/resource/payment/hot?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/downloads?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -678,12 +426,12 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.32.131:2083 [VLESS]",
-      "server": "104.19.32.131",
-      "server_port": 2083,
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.55.39:2087 [VLESS]",
+      "server": "104.19.55.39",
+      "server_port": 2087,
       "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
       "transport": {
-        "path": "/users?ed=2560",
+        "path": "/f/messages?ed=2560",
         "type": "ws",
         "headers": {
           "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
@@ -701,76 +449,13 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 198.41.209.158:443 [TROJAN]",
-      "server": "198.41.209.158",
-      "server_port": 443,
-      "password": "79b53589-1d5f-4712-8239-5d524339040b",
-      "transport": {
-        "type": "ws",
-        "path": "/class/novel?ed=2560",
-        "headers": {
-          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 108.162.198.199:8443 [SS]",
-      "server": "108.162.198.199",
-      "server_port": 8443,
-      "method": "aes-128-gcm",
-      "password": "79b53589-1d5f-4712-8239-5d524339040b",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/activity/photos?enc\\=aes-128-gcm&ed\\=2560;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.72.244:8443 [VLESS]",
-      "server": "172.67.72.244",
-      "server_port": 8443,
-      "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
-      "transport": {
-        "path": "/topic?ed=2560",
-        "type": "ws",
-        "headers": {
-          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.16.244.117:2096 [TROJAN]",
-      "server": "104.16.244.117",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.120.251:2096 [TROJAN]",
+      "server": "104.17.120.251",
       "server_port": 2096,
       "password": "79b53589-1d5f-4712-8239-5d524339040b",
       "transport": {
         "type": "ws",
-        "path": "/m?ed=2560",
+        "path": "/product?ed=2560",
         "headers": {
           "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
         }
@@ -787,13 +472,328 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 198.41.208.72:2083 [SS]",
-      "server": "198.41.208.72",
+      "tag": "سرویس رایگان نوا @irnova_proxy 8.39.125.192:2087 [SS]",
+      "server": "8.39.125.192",
+      "server_port": 2087,
+      "method": "aes-128-gcm",
+      "password": "79b53589-1d5f-4712-8239-5d524339040b",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/drama?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.115.85:2087 [VLESS]",
+      "server": "104.17.115.85",
+      "server_port": 2087,
+      "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
+      "transport": {
+        "path": "/china/music?ed=2560",
+        "type": "ws",
+        "headers": {
+          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.102.19:2083 [TROJAN]",
+      "server": "104.17.102.19",
+      "server_port": 2083,
+      "password": "79b53589-1d5f-4712-8239-5d524339040b",
+      "transport": {
+        "type": "ws",
+        "path": "/picture?ed=2560",
+        "headers": {
+          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.62.125:2083 [SS]",
+      "server": "104.17.62.125",
       "server_port": 2083,
       "method": "aes-128-gcm",
       "password": "79b53589-1d5f-4712-8239-5d524339040b",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/seasons/services?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/sale/pics?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 91.193.58.229:8443 [VLESS]",
+      "server": "91.193.58.229",
+      "server_port": 8443,
+      "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
+      "transport": {
+        "path": "/thread?ed=2560",
+        "type": "ws",
+        "headers": {
+          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.18.33.240:443 [TROJAN]",
+      "server": "104.18.33.240",
+      "server_port": 443,
+      "password": "79b53589-1d5f-4712-8239-5d524339040b",
+      "transport": {
+        "type": "ws",
+        "path": "/company/items/categories?ed=2560",
+        "headers": {
+          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.181.234:443 [SS]",
+      "server": "104.17.181.234",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "79b53589-1d5f-4712-8239-5d524339040b",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/pics/novel/downloads?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2087 [VLESS]",
+      "server": "91.193.58.10",
+      "server_port": 2087,
+      "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
+      "transport": {
+        "path": "/clip/book?ed=2560",
+        "type": "ws",
+        "headers": {
+          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.16.254.208:2053 [TROJAN]",
+      "server": "104.16.254.208",
+      "server_port": 2053,
+      "password": "79b53589-1d5f-4712-8239-5d524339040b",
+      "transport": {
+        "type": "ws",
+        "path": "/season/jump.html?ed=2560",
+        "headers": {
+          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.40.221:2053 [SS]",
+      "server": "162.159.40.221",
+      "server_port": 2053,
+      "method": "aes-128-gcm",
+      "password": "79b53589-1d5f-4712-8239-5d524339040b",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/buy?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.145.138:2083 [VLESS]",
+      "server": "104.19.145.138",
+      "server_port": 2083,
+      "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
+      "transport": {
+        "path": "/question/chat/films?ed=2560",
+        "type": "ws",
+        "headers": {
+          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.98.82:2053 [TROJAN]",
+      "server": "104.17.98.82",
+      "server_port": 2053,
+      "password": "79b53589-1d5f-4712-8239-5d524339040b",
+      "transport": {
+        "type": "ws",
+        "path": "/note?ed=2560",
+        "headers": {
+          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.175.46:2083 [SS]",
+      "server": "104.17.175.46",
+      "server_port": 2083,
+      "method": "aes-128-gcm",
+      "password": "79b53589-1d5f-4712-8239-5d524339040b",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/clip/gif/pictures?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.19.6:8443 [VLESS]",
+      "server": "104.17.19.6",
+      "server_port": 8443,
+      "uuid": "79b53589-1d5f-4712-8239-5d524339040b",
+      "transport": {
+        "path": "/mall?ed=2560",
+        "type": "ws",
+        "headers": {
+          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.33.168:2053 [TROJAN]",
+      "server": "104.19.33.168",
+      "server_port": 2053,
+      "password": "79b53589-1d5f-4712-8239-5d524339040b",
+      "transport": {
+        "type": "ws",
+        "path": "/blog/web/htm?ed=2560",
+        "headers": {
+          "Host": "bright-willow-0414.swift-harbor-c200.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "bright-willow-0414.swift-harbor-c200.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.66.2.16:2096 [SS]",
+      "server": "172.66.2.16",
+      "server_port": 2096,
+      "method": "aes-128-gcm",
+      "password": "79b53589-1d5f-4712-8239-5d524339040b",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=bright-willow-0414.swift-harbor-c200.workers.dev;path=/html/series/web?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -813,38 +813,38 @@
         "🔮 负载均衡",
         "DIRECT",
         "سرویس رایگان نوا @irnova_proxy bright-willow-0414.swift-harbor-c200.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.122:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.244.204:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.254.70:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.112:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 172.66.2.118:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.222.196:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.147.104:2096 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.147.71:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.70:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.33.106:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.140:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.152.103:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.146.23:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.45.73:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.163.62:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.24.30:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.218.202:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.208.127:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.109:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.17:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.222.120:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.161.72:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.35.176:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.63.47:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.171.254:2053 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.51.59:443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.32.131:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.158:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.199:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.72.244:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.244.117:2096 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.208.72:2083 [SS]"
+        "سرویس رایگان نوا @irnova_proxy 104.19.145.52:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.51.138:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.36.119:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.50.144:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 108.162.198.75:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.64.65:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.209.178:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.51.100:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.165.17:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.120.6:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.22:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.153.243:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.63:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.26.6.166:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.55.39:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.120.251:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.192:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.115.85:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.102.19:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.62.125:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.229:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.240:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.181.234:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.254.208:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.40.221:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.145.138:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.98.82:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.175.46:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.19.6:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.33.168:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.2.16:2096 [SS]"
       ]
     },
     {
@@ -852,38 +852,38 @@
       "tag": "♻️ 自动选择",
       "outbounds": [
         "سرویس رایگان نوا @irnova_proxy bright-willow-0414.swift-harbor-c200.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.122:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.244.204:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.254.70:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.112:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 172.66.2.118:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.222.196:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.147.104:2096 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.147.71:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.70:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.33.106:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.140:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.152.103:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.146.23:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.45.73:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.163.62:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.24.30:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.218.202:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.208.127:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.109:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.17:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.222.120:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.161.72:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.35.176:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.63.47:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.171.254:2053 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.51.59:443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.32.131:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.158:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.199:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.72.244:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.244.117:2096 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.208.72:2083 [SS]"
+        "سرویس رایگان نوا @irnova_proxy 104.19.145.52:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.51.138:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.36.119:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.50.144:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 108.162.198.75:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.64.65:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.209.178:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.51.100:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.165.17:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.120.6:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.22:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.153.243:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.63:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.26.6.166:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.55.39:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.120.251:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.192:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.115.85:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.102.19:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.62.125:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.229:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.240:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.181.234:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.254.208:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.40.221:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.145.138:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.98.82:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.175.46:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.19.6:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.33.168:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.2.16:2096 [SS]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -894,38 +894,38 @@
       "tag": "🔯 故障转移",
       "outbounds": [
         "سرویس رایگان نوا @irnova_proxy bright-willow-0414.swift-harbor-c200.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.122:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.244.204:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.254.70:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.112:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 172.66.2.118:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.222.196:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.147.104:2096 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.147.71:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.70:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.33.106:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.140:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.152.103:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.146.23:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.45.73:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.163.62:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.24.30:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.218.202:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.208.127:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.109:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.17:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.222.120:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.161.72:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.35.176:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.63.47:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.171.254:2053 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.51.59:443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.32.131:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.158:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.199:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.72.244:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.244.117:2096 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.208.72:2083 [SS]"
+        "سرویس رایگان نوا @irnova_proxy 104.19.145.52:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.51.138:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.36.119:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.50.144:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 108.162.198.75:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.64.65:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.209.178:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.51.100:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.165.17:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.120.6:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.22:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.153.243:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.63:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.26.6.166:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.55.39:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.120.251:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.192:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.115.85:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.102.19:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.62.125:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.229:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.240:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.181.234:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.254.208:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.40.221:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.145.138:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.98.82:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.175.46:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.19.6:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.33.168:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.2.16:2096 [SS]"
       ]
     },
     {
@@ -933,38 +933,38 @@
       "tag": "🔮 负载均衡",
       "outbounds": [
         "سرویس رایگان نوا @irnova_proxy bright-willow-0414.swift-harbor-c200.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.122:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.244.204:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.254.70:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.112:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 172.66.2.118:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.222.196:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.147.104:2096 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.147.71:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.70:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.33.106:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.140:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.152.103:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.146.23:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.45.73:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.163.62:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.24.30:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.218.202:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.208.127:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.109:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.17:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.222.120:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.161.72:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.35.176:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.63.47:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.171.254:2053 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.51.59:443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.32.131:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.158:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.199:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.72.244:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.244.117:2096 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.208.72:2083 [SS]"
+        "سرویس رایگان نوا @irnova_proxy 104.19.145.52:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.51.138:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.36.119:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.50.144:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 108.162.198.75:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.64.65:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.209.178:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.51.100:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.165.17:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.120.6:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.22:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.153.243:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.63:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.26.6.166:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.55.39:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.120.251:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.192:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.115.85:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.102.19:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.62.125:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.229:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.240:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.181.234:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.254.208:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.40.221:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.145.138:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.98.82:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.175.46:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.19.6:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.33.168:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.2.16:2096 [SS]"
       ]
     },
     {
@@ -1000,38 +1000,38 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "سرویس رایگان نوا @irnova_proxy bright-willow-0414.swift-harbor-c200.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.122:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.244.204:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.254.70:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.112:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 172.66.2.118:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.222.196:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.147.104:2096 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.147.71:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.70:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.33.106:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.140:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.152.103:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.146.23:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.45.73:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.163.62:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.24.30:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.218.202:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.208.127:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.109:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.17:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.222.120:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.161.72:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.35.176:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.63.47:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.171.254:2053 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.51.59:443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.32.131:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.158:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.199:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.72.244:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.244.117:2096 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.208.72:2083 [SS]"
+        "سرویس رایگان نوا @irnova_proxy 104.19.145.52:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.51.138:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.36.119:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.50.144:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 108.162.198.75:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.64.65:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.209.178:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.51.100:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.165.17:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.120.6:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.22:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.153.243:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.63:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.26.6.166:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.55.39:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.120.251:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.192:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.115.85:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.102.19:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.62.125:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.229:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.240:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.181.234:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.254.208:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.40.221:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.145.138:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.98.82:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.175.46:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.19.6:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.33.168:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.2.16:2096 [SS]"
       ]
     },
     {
@@ -1047,38 +1047,38 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "سرویس رایگان نوا @irnova_proxy bright-willow-0414.swift-harbor-c200.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.122:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.244.204:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.254.70:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.112:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 172.66.2.118:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.222.196:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.147.104:2096 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.147.71:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.70:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.33.106:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.140:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.152.103:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.146.23:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.45.73:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.163.62:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.24.30:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.218.202:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.208.127:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.109:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.17:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.222.120:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.161.72:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.35.176:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.63.47:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.171.254:2053 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.51.59:443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.32.131:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.158:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.199:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.72.244:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.244.117:2096 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.208.72:2083 [SS]"
+        "سرویس رایگان نوا @irnova_proxy 104.19.145.52:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.51.138:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.36.119:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.50.144:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 108.162.198.75:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.64.65:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.209.178:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.51.100:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.165.17:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.120.6:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.22:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.153.243:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.63:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.26.6.166:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.55.39:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.120.251:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.192:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.115.85:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.102.19:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.62.125:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.229:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.240:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.181.234:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.254.208:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.40.221:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.145.138:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.98.82:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.175.46:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.19.6:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.33.168:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.2.16:2096 [SS]"
       ]
     },
     {
@@ -1089,38 +1089,38 @@
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "DIRECT",
         "سرویس رایگان نوا @irnova_proxy bright-willow-0414.swift-harbor-c200.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.122:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.244.204:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.254.70:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.112:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 172.66.2.118:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.222.196:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.147.104:2096 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.147.71:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.70:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.33.106:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 8.35.211.140:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.152.103:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.146.23:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.45.73:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.163.62:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.24.30:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.218.202:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.208.127:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.33.109:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.17:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.222.120:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.161.72:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.35.176:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.63.47:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.171.254:2053 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.51.59:443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.32.131:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.158:443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 108.162.198.199:8443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.72.244:8443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.244.117:2096 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.208.72:2083 [SS]"
+        "سرویس رایگان نوا @irnova_proxy 104.19.145.52:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.51.138:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.36.119:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.50.144:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 108.162.198.75:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.64.65:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.209.178:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.51.100:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.165.17:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.120.6:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.22:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.153.243:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.38.63:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.26.6.166:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.55.39:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.120.251:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 8.39.125.192:2087 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.115.85:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.102.19:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.62.125:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.229:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.240:443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.181.234:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.254.208:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.40.221:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.145.138:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.98.82:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.175.46:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.19.6:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.33.168:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.2.16:2096 [SS]"
       ]
     },
     {
